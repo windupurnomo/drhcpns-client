@@ -15,6 +15,11 @@ export default {
           icon: 'icon-speedometer'
     },
     {
+          name: 'Form CPNS',
+          url: '/cpnsform',
+          icon: 'icon-speedometer'
+    },
+    {
       title: true,
       name: 'Theme',
       class: '',

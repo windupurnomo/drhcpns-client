@@ -7,6 +7,7 @@ const DefaultContainer = () => import('@/containers/DefaultContainer')
 // Views
 const Dashboard = () => import('@/views/Dashboard')
 const CPNS = () => import('@/app/CPNS')
+const CPNSForm = () => import('@/app/CPNSForm')
 
 const Colors = () => import('@/views/theme/Colors')
 const Typography = () => import('@/views/theme/Typography')
@@ -81,6 +82,11 @@ export default new Router({
           path: 'cpns',
           name: 'CPNS',
           component: CPNS
+        },
+        {
+          path: 'cpnsform',
+          name: 'Form CPNS',
+          component: CPNSForm
         },
         {
           path: 'theme',
